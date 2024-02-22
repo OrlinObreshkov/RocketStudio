@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/cssResetter.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/main.js" defer></script>
+    <title>Rocket Studio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__holder">
+          <div class="header__bar">
+            <ul class="header__contacts">
+              <li><a href="#">Email</a></li>
+              <li><a href="#">Phone</a></li>
+            </ul>
+            <ul class="header__acc">
+              <li><a href="#">Bulgarian</a></li>
+              <li><a href="#">Акаунт</a></li>
+            </ul>
+          </div>
+          <div class="header__inner">
+            <div class="logo">
+              <a href="#"><img src="images/Logo.jpg" alt="logo" /></a>
+            </div>
+            <div class="header__delivery">
+              <img src="images/truck 1.jpg" />
+              <a href="#"
+                >Безплатна<br />
+                доставка !</a
+              >
+            </div>
+            <div class="header__search">
+              <input type="text" placeholder="Търсене" />
+              <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header__actions">
+              <div class="wishlist">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="basket">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="total">
+                <span>Кошница:</span>
+                <p>599.00 лв</p>
+              </div>
+            </div>
+            <button class="button-hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="nav-mobile">
+              <button class="button-close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <div class="nav__holder">
+                <ul>
+                  <li class="dropdown">
+                    <a class="nav__item" href="hoods.html">
+                      <i class="fa-solid fa-list"></i>Категории</a
+                    >
+                    <div class="dropdown__content dropdown--mobile">
+                      <ul>
+                        <li>
+                          <div class="products-category">
+                            <a class="button" href="#">Виж всички</a>
+                            <div class="products-category__title">
+                              <img src="images/hood 1 (1).svg" />
+                              <a href="hoods.html">Аспиратори</a>
+                            </div>
+                            <div class="products">
+                              <a href="#"
+                                >Шумопонижаващи системи за аспиратори -
+                                Въздуховоди</a
+                              >
+                              <a href="#">Downdraft аспиратори</a>
+                              <a href="#">Аспиратори за вграждане</a>
+                              <a href="#"
+                                >Декоративни аспиратори (за стенен монтаж)</a
+                              >
+                              <a href="#">Островни аспиратори</a>
+                              <a href="#">Ретро аспиратори</a>
+                              <a href="#">Традиционни аспиратори (под шкаф)</a>
+                              <a href="#">аспиратори</a>
+                            </div>
+                          </div>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/dishwasher 1.svg" />
+                              <a href="#">Съдомиялни</a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Свободностоящи съдомиялни</a>
+                              <a href="#">Съдомиялни за вграждане</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/induction-stove 1 (1).svg" />
+                              <a href="#"> Плотове за вграждане </a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Газови плотове за вграждане</a>
+                              <a href="#">Индукционни плотове</a>
+                              <a href="#">Индукционни плотове</a>
+                              <a href="#">Ретро плотове</a>
+                              <a href="#">Стъклокерамични плотове</a>
+                              <a href="#">Ретро аспиратори</a>
+                              <a href="#">Други</a>
+                            </div>
+                          </div>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/washer 2.svg" />
+                              <a href="#"> Перални и сушилни </a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Перални машини</a>
+                              <a href="#">Перални със сушилни</a>
+                              <a href="#">Сушилни машини</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/electric-stove 1 (1).svg" />
+                              <a href="#"> Фурни за вграждане </a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Кафемашини за вграждане</a>
+                              <a href="#">Микровълнови за вграждане</a>
+                              <a href="#">Микровълнови за вграждане</a>
+                              <a href="#">Свободностоящи микровълнови</a>
+                              <a href="#">Фурни за вграждане на 60 см</a>
+                              <a href="#">Фурни за вграждане на 90 см</a>
+                              <a href="#">Фурни на пара</a>
+                              <a href="#">Фурни с пиролиза</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/coffee-machine 1 (1).svg" />
+                              <a href="#"> Дребна техника </a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Електрически кани</a>
+                              <a href="#">Кафемашини</a>
+                              <a href="#">Кухненски роботи</a>
+                              <a href="#">Месомелачки</a>
+                              <a href="#">Миксери</a>
+                              <a href="#">Пасатори и блендери</a>
+                              <a href="#">Прахосмукачки</a>
+                              <a href="#">Тостери</a>
+                              <a href="#">Хлебопекарни</a>
+                              <a href="#">Ютии и парни станции</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/sink 2.svg" />
+                              <a href="#"> Кухненски мивки </a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Иноксови мивки</a>
+                              <a href="#"
+                                >Композитни мивки ( гранитни мивки )</a
+                              >
+                              <a href="#"
+                                >Кухненски мелници за отпадъци - Хидро
+                                Диспозер </a
+                              >
+                              <a href="#">Кухненски смесители</a>
+                            </div>
+                          </div>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/fridge 2.svg" />
+                              <a href="#">Хладилници</a>
+                            </div>
+                            <div class="products">
+                              <a href="#">Хладилник Side by Side</a>
+                              <a href="#">Виноохладители</a>
+                              <a href="#">Хладилници за вграждане</a>
+                              <a href="#">Свободностоящи хладилници</a>
+                              <a href="#">Фризери</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="products-category">
+                            <div class="products-category__title">
+                              <img src="images/conveyor 1.svg" />
+                              <a href="#"> Производители </a>
+                            </div>
+                            <img src="images/Group 231.jpg" />
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="nav__item" href="#">Специална оферта</a>
+                  </li>
+                  <li>
+                    <a class="nav__item" href="#">За Нас</a>
+                  </li>
+                  <li>
+                    <a class="nav__item" href="#">Новини</a>
+                  </li>
+                  <li>
+                    <a class="nav__item" href="#">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <nav class="nav">
+            <div class="nav__holder">
+              <ul>
+                <li class="dropdown">
+                  <a class="nav__item" href="#">
+                    <i class="fa-solid fa-list"></i>Категории</a
+                  >
+                  <div class="dropdown__content">
+                    <ul>
+                      <li>
+                        <div class="products-category">
+                          <a class="button" href="#">Виж всички</a>
+                          <div class="products-category__title">
+                            <img src="images/hood 1 (1).svg" />
+                            <a href="hoods.html">Аспиратори</a>
+                          </div>
+                          <div class="products">
+                            <a href="#"
+                              >Шумопонижаващи системи за аспиратори -
+                              Въздуховоди</a
+                            >
+                            <a href="#">Downdraft аспиратори</a>
+                            <a href="#">Аспиратори за вграждане</a>
+                            <a href="#"
+                              >Декоративни аспиратори (за стенен монтаж)</a
+                            >
+                            <a href="#">Островни аспиратори</a>
+                            <a href="#">Ретро аспиратори</a>
+                            <a href="#">Традиционни аспиратори (под шкаф)</a>
+                            <a href="#">аспиратори</a>
+                          </div>
+                        </div>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/dishwasher 1.svg" />
+                            <a href="#">Съдомиялни</a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Свободностоящи съдомиялни</a>
+                            <a href="#">Съдомиялни за вграждане</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/induction-stove 1 (1).svg" />
+                            <a href="#"> Плотове за вграждане </a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Газови плотове за вграждане</a>
+                            <a href="#">Индукционни плотове</a>
+                            <a href="#">Индукционни плотове</a>
+                            <a href="#">Ретро плотове</a>
+                            <a href="#">Стъклокерамични плотове</a>
+                            <a href="#">Ретро аспиратори</a>
+                            <a href="#">Други</a>
+                          </div>
+                        </div>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/washer 2.svg" />
+                            <a href="#"> Перални и сушилни </a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Перални машини</a>
+                            <a href="#">Перални със сушилни</a>
+                            <a href="#">Сушилни машини</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/electric-stove 1 (1).svg" />
+                            <a href="#"> Фурни за вграждане </a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Кафемашини за вграждане</a>
+                            <a href="#">Микровълнови за вграждане</a>
+                            <a href="#">Микровълнови за вграждане</a>
+                            <a href="#">Свободностоящи микровълнови</a>
+                            <a href="#">Фурни за вграждане на 60 см</a>
+                            <a href="#">Фурни за вграждане на 90 см</a>
+                            <a href="#">Фурни на пара</a>
+                            <a href="#">Фурни с пиролиза</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/coffee-machine 1 (1).svg" />
+                            <a href="#"> Дребна техника </a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Електрически кани</a>
+                            <a href="#">Кафемашини</a>
+                            <a href="#">Кухненски роботи</a>
+                            <a href="#">Месомелачки</a>
+                            <a href="#">Миксери</a>
+                            <a href="#">Пасатори и блендери</a>
+                            <a href="#">Прахосмукачки</a>
+                            <a href="#">Тостери</a>
+                            <a href="#">Хлебопекарни</a>
+                            <a href="#">Ютии и парни станции</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/sink 2.svg" />
+                            <a href="#"> Кухненски мивки </a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Иноксови мивки</a>
+                            <a href="#">Композитни мивки ( гранитни мивки )</a>
+                            <a href="#"
+                              >Кухненски мелници за отпадъци - Хидро
+                              Диспозер </a
+                            >
+                            <a href="#">Кухненски смесители</a>
+                          </div>
+                        </div>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/fridge 2.svg" />
+                            <a href="#">Хладилници</a>
+                          </div>
+                          <div class="products">
+                            <a href="#">Хладилник Side by Side</a>
+                            <a href="#">Виноохладители</a>
+                            <a href="#">Хладилници за вграждане</a>
+                            <a href="#">Свободностоящи хладилници</a>
+                            <a href="#">Фризери</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="products-category">
+                          <div class="products-category__title">
+                            <img src="images/conveyor 1.svg" />
+                            <a href="#"> Производители </a>
+                          </div>
+                          <img src="images/Group 231.jpg" />
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a class="nav__item" href="#">Специална оферта</a>
+                </li>
+                <li>
+                  <a class="nav__item" href="#">За Нас</a>
+                </li>
+                <li>
+                  <a class="nav__item" href="#">Новини</a>
+                </li>
+                <li>
+                  <a class="nav__item" href="#">Контакти</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="section-banner">
+          <div class="banner">
+            <img src="images/Slider 1.jpg" />
+          </div>
+        </section>
+        <section class="category-slider">
+          <div class="container">
+            <div class="slider">
+              <ul>
+                <li>
+                  <img src="images/hood 1.svg" />
+                  <a href="#">Аспиратори</a>
+                </li>
+                <li>
+                  <img src="images/induction-stove 1.svg" />
+                  <a href="#">Плотове за вграждане</a>
+                </li>
+                <li>
+                  <img src="images/electric-stove 1.svg" />
+                  <a href="#">Фурни за вграждане</a>
+                </li>
+                <li>
+                  <img src="images/coffee-machine 1.svg" />
+                  <a href="#">Дребна техника</a>
+                </li>
+                <li>
+                  <img src="images/sink 1.svg" />
+                  <a href="#">Кухненски мивки</a>
+                </li>
+                <li>
+                  <img src="images/washer 1.svg" />
+                  <a href="#">Перални и сушилни</a>
+                </li>
+                <li>
+                  <img src="images/fridge 1.svg" />
+                  <a href="#">Хладилници</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section-info">
+          <div class="container">
+            <div class="section-info__holder">
+              <h2 class="section-info__title">
+                Научавай първи за нови продукти и промоции!
+              </h2>
+              <div class="section-info__form">
+                <form>
+                  <input type="text" placeholder="Въведете име" />
+                  <input type="text" placeholder="Въведете Email" />
+                  <button class="button button--large">Абонирай се</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__holder">
+              <ul>
+                <li>
+                  <h3>За Нас</h3>
+                  <p>
+                    AspiratorBG е специализиран онлайн магазин за уреди за
+                    вграждане (аспиратори, фурни, стъклокерамични плотове,
+                    мивки, хладилници, съдомиялни …)
+                  </p>
+                </li>
+                <li>
+                  <h3>Полезни линкове</h3>
+                  <a href="#">Начало</a>
+                  <a href="#">Категории</a>
+                  <a href="#">За Нас</a>
+                  <a href="#">Новини</a>
+                  <a href="#">Контакти</a>
+                </li>
+                <li>
+                  <h3>Информация</h3>
+                  <a href="#">Условия за доставка</a>
+                  <a href="#">Условия за ползване</a>
+                  <a href="#">Политика на поверителност</a>
+                </li>
+                <li>
+                  <h3>Контакти</h3>
+                  <a href="#">OFFICE@ASPIRATOR.BG</a>
+                  <a href="#">0882 62 38 31</a>
+                  <a href="#">Aspirator.bg</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
